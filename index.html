@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header w-100 d-flex flex-wrap" style="height: 150px;">
+        <div class="w-100 d-flex bg-danger">
+            <div class="box w-50 d-flex align-items-center justify-content-center gap-3">
+                <button class="btn btn-outline-light">0% Toʻlov rejasi</button>
+                <button class="btn btn-outline-light">Chegirmalar</button>
+                <button class="btn btn-outline-light">Amaliy hazillar</button>
+                <button class="btn btn-link text-decoration-none text-light">Sayt xaritasi</button>
+            </div>
+            <div class="box w-50 d-flex align-items-center justify-content-center gap-4">
+                <h2 class="text-light fs-3">+998 (71) 202 202 1</h2>
+                <button class="btn btn-outline-light">Olchada sotiladi</button>
+            </div>
+        </div>
+        <nav class="w-100 d-flex align-items-center justify-content-center gap-5">
+            <div class="w-25 d-flex justify-content-center">
+                <h1 class="text-danger" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">olcha</h1>
+            </div class="d-flex gap-5">
+            <div class="w-50 h-50 d-flex gap-4">
+                <button class="w-25 btn btn-outline-danger">Katalog</button>
+                <input class="w-100 rounded-4 border border-danger p-2" type="text" placeholder="Katalog bo'yicha qidirish">
+            </div>
+            <div class="w-25 d-flex gap-4">
+                <div>
+                    <svg style="width: 40px;" data-v-9597b33c="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon icon__comparison"><rect data-v-9597b33c="" x="3.25" y="15" width="2.5" height="7" rx="1.25"></rect><rect data-v-9597b33c="" x="8.25" y="3" width="2.5" height="19" rx="1.25"></rect><rect data-v-9597b33c="" x="13.25" y="11" width="2.5" height="11" rx="1.25"></rect><rect data-v-9597b33c="" x="18.25" y="7" width="2.5" height="15" rx="1.25"></rect></svg>
+                </div>
+                <div>
+                    <svg style="width: 40px;" data-v-9597b33c="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon icon__favorites"><path data-v-9597b33c="" d="M21.2913 4.61183C20.7805 4.10083 20.1741 3.69547 19.5066 3.41891C18.8392 3.14235 18.1238 3 17.4013 3C16.6788 3 15.9634 3.14235 15.2959 3.41891C14.6285 3.69547 14.022 4.10083 13.5113 4.61183L12.4513 5.67183L11.3913 4.61183C10.3596 3.58013 8.96032 3.00053 7.50129 3.00053C6.04226 3.00053 4.64298 3.58013 3.61129 4.61183C2.5796 5.64352 2 7.04279 2 8.50183C2 9.96086 2.5796 11.3601 3.61129 12.3918L4.67129 13.4518L12.4513 21.2318L20.2313 13.4518L21.2913 12.3918C21.8023 11.8811 22.2076 11.2746 22.4842 10.6072C22.7608 9.93972 22.9031 9.22431 22.9031 8.50183C22.9031 7.77934 22.7608 7.06393 22.4842 6.39647C22.2076 5.72901 21.8023 5.12258 21.2913 4.61183V4.61183Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+                <div>
+                    <svg style="width: 40px;" data-v-9597b33c="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="icon icon__cart"><path data-v-9597b33c="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-9597b33c="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-9597b33c="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+                <div>
+                    <svg style="width: 40px;" data-v-9597b33c="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon icon__user"><path data-v-9597b33c="" d="M15.71 12.71C16.6904 11.9387 17.406 10.8809 17.7572 9.68394C18.1085 8.48697 18.0779 7.21027 17.6698 6.03147C17.2617 4.85267 16.4963 3.83039 15.4801 3.10686C14.4639 2.38332 13.2474 1.99451 12 1.99451C10.7525 1.99451 9.53611 2.38332 8.51993 3.10686C7.50374 3.83039 6.73834 4.85267 6.33021 6.03147C5.92208 7.21027 5.89151 8.48697 6.24276 9.68394C6.59401 10.8809 7.3096 11.9387 8.29 12.71C6.61007 13.383 5.14428 14.4994 4.04889 15.9399C2.95349 17.3805 2.26956 19.0913 2.07 20.89C2.05555 21.0213 2.06711 21.1542 2.10402 21.2811C2.14093 21.4079 2.20246 21.5263 2.28511 21.6293C2.45202 21.8375 2.69478 21.9708 2.96 22C3.22521 22.0292 3.49116 21.9518 3.69932 21.7849C3.90749 21.618 4.04082 21.3752 4.07 21.11C4.28958 19.1552 5.22168 17.3498 6.68822 16.0388C8.15475 14.7278 10.0529 14.003 12.02 14.003C13.9871 14.003 15.8852 14.7278 17.3518 16.0388C18.8183 17.3498 19.7504 19.1552 19.97 21.11C19.9972 21.3557 20.1144 21.5827 20.2991 21.747C20.4838 21.9114 20.7228 22.0015 20.97 22H21.08C21.3421 21.9698 21.5817 21.8373 21.7466 21.6313C21.9114 21.4252 21.9881 21.1624 21.96 20.9C21.7595 19.0962 21.0719 17.381 19.9708 15.9382C18.8698 14.4954 17.3969 13.3795 15.71 12.71ZM12 12C11.2089 12 10.4355 11.7654 9.77772 11.3259C9.11992 10.8864 8.60723 10.2616 8.30448 9.53074C8.00173 8.79983 7.92251 7.99557 8.07686 7.21964C8.2312 6.44372 8.61216 5.73099 9.17157 5.17158C9.73098 4.61217 10.4437 4.2312 11.2196 4.07686C11.9956 3.92252 12.7998 4.00173 13.5307 4.30448C14.2616 4.60724 14.8863 5.11993 15.3259 5.77772C15.7654 6.43552 16 7.20888 16 8C16 9.06087 15.5786 10.0783 14.8284 10.8284C14.0783 11.5786 13.0609 12 12 12Z"></path></svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container d-flex flex-column gap-4">
+        <section class="d-flex gap-4">
+            <div class="w-100 rounded-4">
+                <div id="carouselExample" class="carousel slide w-100">
+                    <div class="carousel-inner object-fit-contain" style="height: 400px;">
+                      <div class="carousel-item active">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-05-31/gPFV5iNdN38kvEfcA0xm3xfLEhmLgRclM8bYyUbwb2R9lcHSaBpaGYWfkjj6.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-06-14/geyHfuOH0LTPzW0aFBbMSK0CljoK7LAvAe5afz5slrI7PjfqzdsY31lH42ne.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-06-13/5rOIqYjp2bs6dMUxnJGUGL91sGNvETSNBRDNlPhrTGMPp4UybSs7K0IaNpON.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-06-21/y5aDVHE7Ag5uvyc9NITuI9BrXNbpJDa9VVazOIjoQxPTEMT5IypbwA7lkYCs.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-05-24/72jBKbSMPWimAE5nXX5PYUwcKpaOTx3EfDApugqRbotGHicIegelX9C39ui6.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-05-10/If6KWcPozTsWy5genEwABBi2TFe09WpK1Ma0wrx9lXueunjfhng3X6URe1Hs.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item object-fit-contain" style="height: 400px;">
+                        <img src="https://olcha.uz/image/original/sliders/ru/cdn_1/2024-05-27/k7X3JwefY7NM2SLThBllXJK0WwjZZiMX0TTJel9mUvksAhtLyNCF93MvgYpQ.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev bg-black rounded-circle" style="height: 35px; width: 35px; margin-top: 150px; margin-left: 20px;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-prev bg-black rounded-circle" style="height: 35px; width: 35px; margin-top: 150px; margin-left: 935px;" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex justify-content-center align-items-center card rounded-3 border-danger border-3" style="height: 340px; width: 280px;">
+                    <img class="" style="width: 160px;" src="https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-23/vSAwyWlEmJn6qGNUyyBIfMqdl1uptSfIfhQLJo9dRsMIHyT7rr9fxQqsADU9.JPG" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column justify-content-center gap-1">
+                      <p class="card-text">Samsung Galaxy A55 8/128 GB Awesome Lemon</p>
+                      <h2 class="fs-5 text-danger">4 399 000 сум</h2>
+                      <h6 class="w-75  text-bg-warning rounded-2">516 000 сум / 12 мес.</h6>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="w-100 d-flex gap-3 overflow-x-scroll">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/B1NA6mAiwsmrVapt6VbrdvPPIllRV2EnjtNEuUvSPhHoZ2beOWGv616dhaKj.png" alt="">
+            <h6 class="text-center">Televizor, foto- <br>video va audio</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/n4H7uKvN0pFwsYXSs66rsdUdHxGiRCWn8JVt9O0Qt1ecNl1fOEDJ7j0BHj81.png" alt="">
+            <h6 class="text-center">Noutbuk, printer,<br> kompyuterlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/K83YTs4SqPeI3Ohx1lN0bDnbiV1Z9EnwZHMr2HsjIlDhmT48cBgn4C0Ve9Br.png" alt="">
+            <h6 class="text-center">Smartfon,<br> aksessuarlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/yfGs0HUuX5wKnXwPbOyEswpZFzzGhmHdpptTriBTKm01HUxMqTBEg1QA2CQr.png" alt="">
+            <h6 class="text-center">Maishiy texnika</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/eCJj0q3ixqzqS3xvZhnMSQnYC1SLTnLB475I5l5ltz6rxi9rUmYauATe5Pa6.png" alt="">
+            <h6 class="text-center">Barchasi oshxona <br> uchun</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/D1UNIE2gMBYHkx9XQl452O6I2jtQOpD4kvhOWQCtr9fuPliQWVSAkN9YXjiQ.png" alt="">
+            <h6 class="text-center">Sport anjomlari</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/Lio8FefcAG352o0hPeqHDkd7TVlr2NQ4ljQAQziRlTjWOz08RiB1fncFbe2D.png" alt="">
+            <h6 class="text-center">Go‘zallik va salomatlik</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/rMtg5ExOxyyExZageLhA2AZ2CfgYYfkzqtZ5butpO8HCG1oFndTZAYFF8V4M.png" alt="">
+            <h6 class="text-center">Chet eldan tovarlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/xrGNIS4zILNfb5qMXC0nvDLo09QuwdrdXYEKqn7UOEI9PndrjYR1BNX6CQbA.png" alt="">
+            <h6 class="text-center">Avto jihozlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/ZiWkDeTfCnCNHDWZnu0xXtxwkZ6Qe3embHveXzJVRXfdnaJB5sRsnJiU22vS.png" alt="">
+            <h6 class="text-center">Barchasi ofis, uy va bog‘ uchun</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/e6S4NLdIceYAv1zDvwHPVHFWSEMMgUxMwbOjThhsguSxVUKTY6yKbXvwOJ6M.png" alt="">
+            <h6 class="text-center">Bolalar uchun o‘yinchoq va mahsulotlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/kYlDnf1YPCTeu1CukaSt24EaWdr5QpW648eNtpeaFuxiFZLIfUOW9uGlg7df.png" alt="">
+            <h6 class="text-center">Kiyim va poyabzallar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/bMNspthi79FTau9LHHWwROUmJxcI9s67zBhAw7hPxONfHOpouAPSz1XBmg0Q.png" alt="">
+            <h6 class="text-center">Kitoblar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/adqzcIrhpWBLdv7My9MHp7DblhCNpQg2KkpsoeRQZdvKe5OR01jO2oXkKgcn.png" alt="">
+            <h6 class="text-center">Mebel</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/H36mM5MMLXtOjeOWB3Qm4FVp2ePbeijqE7VciIfLRsU5E4AAoPmf9avFASAg.png" alt="">
+            <h6 class="text-center">Geymerlar uchun</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/ioFNdT48mMJa0ARcbtJXbnLZN8CUB9x09SFDzFv06MJXreLROUEhytRsKavH.png" alt="">
+            <h6 class="text-center">Ta’mirlash va qurilish uchun</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/4x0BCXOswam7ZF6HtQbbbkBfwFiClO2DCP6jY4F9sGt5P3VG0qUf1u27iCFq.png" alt="">
+            <h6 class="text-center">Kantselyariya tovarlari</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/ffn8LREBuqMNdbVFBdddB9BtV9eUM3IygL94CozDRxgwgjQiAyzfPtyWWkQe.png" alt="">
+            <h6 class="text-center">Elektrotransport</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/cBKUy2UyHjgTu7n0E4ZEtbo1Priwsl5oynQrRtxl6MixwxwknCUbTfyDJiKx.png" alt="">
+            <h6 class="text-center">Sovg‘alar va suvenirlar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/g8nf8o2xpmFB6FaaAy60UUZWKqLzXhEEOqIc2RdAEp7s0r7ETvdBkvkmBvIB.png" alt="">
+            <h6 class="text-center">Aqlli uy</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/1fxknIjYSCNtNw0XfYPubvN9yhsaSAYsHryekFcTORSOgIcZ81NpuE2E96ee.png" alt="">
+            <h6 class="text-center">Qulay takliflar</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/Hkq1VNk2xXNORQ17hf2DdCTcix59JdQgR3SfdXEiUJlfCEzzLlImQ3JbIxBh.png" alt="">
+            <h6 class="text-center">Oziq-ovqat maxsulotlari</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/HJTsWmx1CIypB4WMBEiOoBCesiNuHbL6jtU629x73GzrUAprGMIuI1z0EAUw.png" alt="">
+            <h6 class="text-center">Olcha Qo‘ldan</h6>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="https://olcha.uz/image/128x128/category/cdn_1/2024-05-28/gH70607VBCkecOmaKnLQXlzHcwipHiBuvNKfXnAZcGnsQuQ0zv5Wom5lSykN.png" alt="">
+            <h6 class="text-center">Avtomobillar</h6>
+          </div>
+        </section>
+        <section class="w-100 d-flex justify-content-center align-items-center gap-3">
+          <img class="rounded-3" style="width: 450px;" src="https://olcha.uz/image/460x152/homePage/cdn_1/2024-06-18/LZTlw098f6u7NEtkZQltc3PlKxI8U54hVjLnQ6QQThO0ESxtdaGJoJwfpPQx.jpg" alt="">
+          <img class="rounded-3" style="width: 450px;" src="https://olcha.uz/image/460x152/homePage/cdn_1/2024-06-18/LZTlw098f6u7NEtkZQltc3PlKxI8U54hVjLnQ6QQThO0ESxtdaGJoJwfpPQx.jpg" alt="">
+          <img class="rounded-3" style="width: 450px;" src="https://olcha.uz/image/460x152/homePage/cdn_1/2024-06-18/LZTlw098f6u7NEtkZQltc3PlKxI8U54hVjLnQ6QQThO0ESxtdaGJoJwfpPQx.jpg" alt="">
+        </section>
+        <section>
+          <div class="d-flex">
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/PaM0CUVGoX5QsvtKi6TiICrUtZW0lmfgz9q07KKoHKnyHbDP33p0egVhTFIf.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Sony PlayStation 5 Slim CD ,1TB (U.A.E)</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">7 445 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">4 399 000 сум</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">785 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/supplier/stores/1/2024-02-11/EVFl4kRDy647wlfqPL4BZ4UD38ZC5p39CqlKigmU31o8z6px36ays3j2OYoa.jpg" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Honor X7b 8/128 GB or 12/256 GB</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 695 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">2 295 000 so'm </h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">269 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/700x700/products/Cjg3V5nm4mBivJC9davhVhYWJBhcreltBb7OOuLX8ol5KM5TsUNUUEA6j9sK.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Apple iPhone 15 Pro max platinum</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">13 999 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">13 399 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">1 570 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/supplier/stores/1/2023-12-05/LjVOjkaC1EOimkiYdUGosEBnX07GTrGfzF21IyTR0y2GEh4j4yQAdWejgPHN.jpg" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Xiaomi Redmi note 12 pro 9/256 GB</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 091 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">1 679 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">197 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/700x700/products/NmvYPmpGZeulgxJQ4y2K3oVQ7JBMdIw5vU6E1hqArh8TM0iYmt8ilNxntWdi.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Sony PlayStation 5 Slim CD ,1TB (U.A.E)</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 200 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">1 820 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">214 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="d-flex">
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/PaM0CUVGoX5QsvtKi6TiICrUtZW0lmfgz9q07KKoHKnyHbDP33p0egVhTFIf.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Sony PlayStation 5 Slim CD ,1TB (U.A.E)</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">7 445 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">4 399 000 сум</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">785 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/supplier/stores/1/2024-02-11/EVFl4kRDy647wlfqPL4BZ4UD38ZC5p39CqlKigmU31o8z6px36ays3j2OYoa.jpg" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Honor X7b 8/128 GB or 12/256 GB</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 695 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">2 295 000 so'm </h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">269 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/700x700/products/Cjg3V5nm4mBivJC9davhVhYWJBhcreltBb7OOuLX8ol5KM5TsUNUUEA6j9sK.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Apple iPhone 15 Pro max platinum</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">13 999 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">13 399 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">1 570 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/220x220/products/supplier/stores/1/2023-12-05/LjVOjkaC1EOimkiYdUGosEBnX07GTrGfzF21IyTR0y2GEh4j4yQAdWejgPHN.jpg" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Xiaomi Redmi note 12 pro 9/256 GB</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 091 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">1 679 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">197 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex justify-content-center align-items-center rounded-3 border-0" style="height: 400px; width: 300px;">
+              <img class="" style="width: 190px;" src="https://olcha.uz/image/700x700/products/NmvYPmpGZeulgxJQ4y2K3oVQ7JBMdIw5vU6E1hqArh8TM0iYmt8ilNxntWdi.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column justify-content-center gap-3">
+                <div class="d-flex flex-column">
+                  <p class="card-text">Sony PlayStation 5 Slim CD ,1TB (U.A.E)</p>
+                  <h2 class="text-decoration-line-through fs-6 text-black-50">2 200 000 so'm</h2>
+                  <h2 class="fs-5 text-danger">1 820 000 so'm</h2>
+                  <h6 class="w-75  text-bg-warning rounded-2">214 000 so'm / 12 oy.</h6>
+                </div>
+                <div class="w-100 d-flex gap-2">
+                  <button class="btn btn-outline-danger rounded-3" style="height: 40px; width: 50px;">
+                    <svg class="w-75" data-v-fa1dc7ec="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon icon__cart"><path data-v-fa1dc7ec="" d="M5.625 18.75C6.48795 18.75 7.1875 18.0504 7.1875 17.1875C7.1875 16.3246 6.48795 15.625 5.625 15.625C4.76206 15.625 4.0625 16.3246 4.0625 17.1875C4.0625 18.0504 4.76206 18.75 5.625 18.75Z"></path><path data-v-fa1dc7ec="" d="M15 18.75C15.8629 18.75 16.5625 18.0504 16.5625 17.1875C16.5625 16.3246 15.8629 15.625 15 15.625C14.1371 15.625 13.4375 16.3246 13.4375 17.1875C13.4375 18.0504 14.1371 18.75 15 18.75Z"></path><path data-v-fa1dc7ec="" d="M3.125 5H16.7512C16.8427 5 16.9332 5.02011 17.0161 5.0589C17.099 5.0977 17.1724 5.15423 17.231 5.22451C17.2897 5.29479 17.3322 5.37709 17.3555 5.4656C17.3789 5.55412 17.3825 5.64668 17.3661 5.73674L16.0601 12.9242C16.0339 13.0683 15.958 13.1985 15.8456 13.2923C15.7332 13.3861 15.5915 13.4375 15.4451 13.4375H5.18665C5.04034 13.4375 4.89866 13.3862 4.78631 13.2924C4.67395 13.1987 4.59804 13.0686 4.57179 12.9246L2.65034 2.38788C2.6241 2.24394 2.54818 2.11377 2.43583 2.02005C2.32347 1.92633 2.1818 1.875 2.03548 1.875H0.9375" stroke="currentColor" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                  </button>
+                   <button class="w-75 btn btn-outline-danger" style="height: 40px;">Muddatli to'lov</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
